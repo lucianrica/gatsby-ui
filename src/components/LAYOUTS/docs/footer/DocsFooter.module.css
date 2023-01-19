@@ -1,5 +1,5 @@
 .footer {
-    border-top: 1px dashed #e9ebec;
+    border-top: 1px solid #f1f1f1;
     color: #57606a;
     font-size: 14px;
     margin: 50px 20px;
@@ -9,6 +9,11 @@
     justify-content: left;
 }
 
+.sup {
+    font-size: 9px;
+    font-weight: 900;
+    color: #da8609;
+}
 
 .footer div {
     padding: 20px 0 0 0;
@@ -77,14 +82,15 @@
 @media only screen and (min-width: 700px) {
     .footer {
         grid-template-columns: 320px;
-        grid-template-columns: repeat(2, minmax(320px, auto));
+        grid-template-columns: repeat(2, minmax(300px, auto));
+        gap: 60px;
         justify-content: center;
     }
 }
 
 @media only screen and (min-width: 1050px) {
     .footer {
-        grid-template-columns: 206px 320px max-content;
+        grid-template-columns: 190px 320px max-content;
         gap: 80px;
         justify-content: center;
     }

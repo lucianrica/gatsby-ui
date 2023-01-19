@@ -1,12 +1,14 @@
 import * as React from "react"
-import Docs_Footer from "../components/LAYOUTS/docs/footer/Docs_Footer"
+import DocsFooter from "../components/LAYOUTS/docs/footer/DocsFooter"
 import '../styles/global.css'
+
+// import { graphql} from 'gatsby'
 
 const IndexPage = () => {
     return (
         <main>
             <h1>Welcome to gatsby</h1>
-            <Docs_Footer></Docs_Footer>
+            <DocsFooter></DocsFooter>
         </main>
     )
 }
