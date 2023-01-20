@@ -44,6 +44,22 @@ module.exports = {
                     Authorization: `Bearer `,
                 }
             }
+        },
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [
+                    {
+                        resolve: `gatsby-remark-highlight-code`,
+                        options: {
+                            terminal: "carbon",
+                            theme: "one-dark",
+                            editable: false,
+                            lineNumbers: true
+                        }
+                    }
+                ]
+            }
         }
     ]
 };

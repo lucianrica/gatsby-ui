@@ -1,18 +1,20 @@
 import * as React from "react"
-import DocsFooter from "../components/LAYOUTS/docs/footer/DocsFooter"
+import Layout from "../components/Layout"
 import '../styles/global.css'
 
-// import { graphql} from 'gatsby'
 
 const IndexPage = () => {
     return (
-        <main>
-            <h1>Welcome to gatsby</h1>
-            <DocsFooter></DocsFooter>
-        </main>
+        <Layout>
+            <main>
+                <h2>Nice website</h2>
+            </main>
+        </Layout>
     )
 }
 
+
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+
+export const Head = () => <title>Fmr Documentation</title>

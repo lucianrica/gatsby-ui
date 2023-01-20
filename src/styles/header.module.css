@@ -1,0 +1,33 @@
+
+.header {
+    /* height: 50px; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: max-content max-content max-content 1fr;
+    gap: 35px;
+    padding: 15px;
+    border-bottom: 1px solid #24292f;
+}
+
+.btn {
+    border: 1px solid #096bda8c;
+    border-radius: 3px;
+    padding: 5px 16px;
+    background: #f6f8fa;
+    font-weight: 600;
+    color: #24292f;
+    font-size: 13px;
+    box-shadow: -0.5px 1px 2px #d0d7de;
+    cursor: pointer;
+    margin: 14px 0;
+}
+
+.btn:hover {
+    border-color: #0969da;
+}
+
+.btn:active {
+    color: #0969da;
+    box-shadow: -1px 2px 1px #d0d7de;
+    background: #eaf0f7;
+}
